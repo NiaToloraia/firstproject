@@ -115,6 +115,7 @@ body {
 }
 .item-middle{
   margin: 11px 0;
+  display: inline-block;
 }
 
 
