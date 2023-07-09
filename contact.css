@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+body {
+  padding-top: 32px 50px 32px 40px;
+
+}
+.logo {
+  width: 130px;
+  height: 64px;
+  top: 32px;
+  left: 40px;
+  border: 1px solid #4ca9e3;
+}
+
+.navigation {
+  width: 97px;
+  height: 96px;
+  top: 147px;
+  left: 40px;
+  margin: 51px 0;
+
+}
+
+.navigation a {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+.Home  {
+  color: rgba(36, 20, 219, 1);
+  width: 60px;
+  height: 24px;
+  top: 147px;
+  left: 40px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.About {
+  width: 70px;
+  height: 24px;
+  top: 183px;
+  left: 40px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(36, 20, 219, 1);
+
+}
+
+.Contact  {
+  color: red;
+  width: 97px;
+  height: 24px;
+  top: 219px;
+  left: 40px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contact-box {
+  background-color: #D41EF21F;
+  margin: 0 auto;
+  /* display: flex; */
+  width: 400px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 35px;
+  flex-shrink: 0;
+}
+
+.Contact-info {
+  width: 400px;
+  font-family: BPG Nino Mtavruli;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1B24F4;
+  margin-bottom: 35px;
+ 
+}
+.items {
+  display: inline-block;
+}
+.item-middle{
+  margin: 11px 0;
+}
+
+
+span {
+  color: #0D69A9;
+}
+
+
+.icons {
+  width: 220px;
+  height: 60px;
+  flex-shrink: 0;
+  top: 1174px;
+  left: 40px;
+
+}
+
+.icons li {
+  display: inline-block;
+  width: 40px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
